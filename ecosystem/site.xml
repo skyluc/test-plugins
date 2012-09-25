@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.skyluc.master.feature_0.0.0.jar" id="org.skyluc.master.feature" version="0.1.0">
+      <category name="master"/>
+   </feature>
+   <feature url="features/org.skyluc.master.source.feature_0.0.0.jar" id="org.skyluc.master.source.feature" version="0.1.0">
+      <category name="source"/>
+   </feature>
+   <feature url="features/org.skyluc.slave1.feature_0.0.0.jar" id="org.skyluc.slave1.feature" version="0.1.0">
+      <category name="slaves"/>
+   </feature>
+   <feature url="features/org.skyluc.master.slave1.feature_0.0.0.jar" id="org.skyluc.slave1.source.feature" version="0.1.0">
+      <category name="source"/>
+   </feature>
+   <feature url="features/org.skyluc.slave2.feature_0.0.0.jar" id="org.skyluc.slave2.feature" version="0.1.0">
+      <category name="slaves"/>
+   </feature>
+   <feature url="features/org.skyluc.master.slave2.feature_0.0.0.jar" id="org.skyluc.slave2.source.feature" version="0.1.0">
+      <category name="source"/>
+   </feature>
+   <category-def name="master" label="Master"/>
+   <category-def name="plugins" label="Plugins"/>
+   <category-def name="source" label="Sources"/>
+</site>
