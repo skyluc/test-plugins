@@ -4,22 +4,22 @@
    <extension
          point="org.eclipse.ui.actionSets">
       <actionSet
-            id="org.skyluc.master.actionSet"
+            id="org.skyluc.slave1.actionSet"
             label="Sample Action Set"
             visible="true">
          <menu
-               id="org.skyluc.master.sampleMenu"
+               id="org.skyluc.slave1.sampleMenu"
                label="Sample &amp;Menu">
             <separator
                   name="sampleGroup">
             </separator>
          </menu>
          <action
-               class="org.skyluc.master.SampleAction"
+               class="org.skyluc.slave1.SampleAction"
                icon="icons/sample.gif"
-               id="org.skyluc.master.sampleAction"
+               id="org.skyluc.slave1.sampleAction"
                label="&amp;Sample Action"
-               menubarPath="org.skyluc.master.sampleMenu/sampleGroup"
+               menubarPath="org.skyluc.slave1.sampleMenu/sampleGroup"
                toolbarPath="sampleGroup"
                tooltip="Hello, Scala world">
          </action>

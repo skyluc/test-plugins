@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.skyluc.slave2.feature_0.0.0.jar" id="org.skyluc.slave2.feature" version="0.0.0">
+      <category name="org.skyluc.slave2"/>
+   </feature>
+   <feature url="features/org.skyluc.slave2.source.feature_0.0.0.jar" id="org.skyluc.slave2.source.feature" version="0.0.0">
+      <category name="org.skyluc.slave2-source"/>
+   </feature>
+   <category-def name="org.skyluc.slave2" label="slave2"/>
+   <category-def name="org.skyluc.slave2-source" label="slave2 Source"/> -->
+</site>

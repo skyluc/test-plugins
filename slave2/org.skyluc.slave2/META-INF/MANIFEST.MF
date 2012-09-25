@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: slave2
+Bundle-SymbolicName: org.skyluc.slave2;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: SkyLuc
+Bundle-ActivationPolicy: lazy
+Bundle-Localization: plugin
+Require-Bundle: 
+ org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.scala-ide.scala.library,
+ org.skyluc.master
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ClassPath: .
+Bundle-Activator: org.skyluc.slave2.PluginBundle
