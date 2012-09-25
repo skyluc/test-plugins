@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: master
+Bundle-SymbolicName: org.skyluc.master;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: SkyLuc
+Bundle-ActivationPolicy: lazy
+Bundle-Localization: plugin
+Require-Bundle: 
+ org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.scala-ide.scala.library
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ClassPath: .
+Bundle-Activator: org.skyluc.master.PluginBundle

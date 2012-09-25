@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.skyluc.master.feature_0.0.0.jar" id="org.skyluc.master.feature" version="0.0.0">
+      <category name="org.skyluc.master"/>
+   </feature>
+   <feature url="features/org.skyluc.master.source.feature_0.0.0.jar" id="org.skyluc.master.source.feature" version="0.0.0">
+      <category name="org.skyluc.master-source"/>
+   </feature>
+   <category-def name="org.skyluc.master" label="master"/>
+   <category-def name="org.skyluc.master-source" label="master Source"/> -->
+</site>
