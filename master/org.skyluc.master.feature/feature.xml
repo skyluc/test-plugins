@@ -230,6 +230,14 @@ All rights reserved.
    </requires>
 
    <plugin
+         id="org.scala-ide.scala.library"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+
+   <plugin
          id="org.skyluc.master"
          download-size="0"
          install-size="0"

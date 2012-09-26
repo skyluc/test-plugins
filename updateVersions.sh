@@ -17,5 +17,5 @@ do
     cp ${SLAVE_BASE_MANIFEST} ${SLAVE_BASE_MANIFEST}.orig
   fi
 
-  sed "s/org.skyluc.master/org.skyluc.master;bundle-version=${MASTER_VERSION}/" ${SLAVE_BASE_MANIFEST}.orig > ${SLAVE_BASE_MANIFEST}
+  sed "s/org.skyluc.master/org.skyluc.master;bundle-version=\"[${MASTER_VERSION},${MASTER_VERSION}]\"/" ${SLAVE_BASE_MANIFEST}.orig > ${SLAVE_BASE_MANIFEST}
 done
