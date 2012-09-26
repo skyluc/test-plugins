@@ -12,12 +12,12 @@
    <feature url="features/org.skyluc.master.slave1.feature_0.0.0.jar" id="org.skyluc.slave1.source.feature" version="0.1.0">
       <category name="source"/>
    </feature>
-<!--   <feature url="features/org.skyluc.slave2.feature_0.0.0.jar" id="org.skyluc.slave2.feature" version="0.1.0">
+   <feature url="features/org.skyluc.slave2.feature_0.0.0.jar" id="org.skyluc.slave2.feature" version="0.1.0">
       <category name="slaves"/>
    </feature>
    <feature url="features/org.skyluc.master.slave2.feature_0.0.0.jar" id="org.skyluc.slave2.source.feature" version="0.1.0">
       <category name="source"/>
-   </feature> -->
+   </feature>
    <category-def name="master" label="Master"/>
    <category-def name="slaves" label="Slaves"/>
    <category-def name="source" label="Sources"/>
