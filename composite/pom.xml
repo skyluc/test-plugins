@@ -20,12 +20,6 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>org.eclipse.tycho</groupId>
-        <artifactId>tycho-maven-plugin</artifactId>
-        <version>${tycho.version}</version>
-        <extensions>true</extensions>
-      </plugin>
-      <plugin>
         <groupId>org.eclipse.tycho.extras</groupId>
         <artifactId>tycho-p2-extras-plugin</artifactId>
         <version>${tycho.version}</version>
@@ -41,24 +35,12 @@
           <source>
             <!-- source repositories to mirror from -->
             <repository>
-               <url>file:///home/luc/tmp/test-plugins/site-v1-all</url>
-               <!-- supported layouts are "p2-metadata", "p2-artifacts", and "p2" (for joint repositories; default) -->
-               <layout>p2</layout>
-            </repository>
-            <repository>
-               <url>file:///home/luc/tmp/test-plugins/site-v2-nos2</url>
+               <url>${repo.source}</url>
                <!-- supported layouts are "p2-metadata", "p2-artifacts", and "p2" (for joint repositories; default) -->
                <layout>p2</layout>
             </repository>
           </source>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.eclipse.tycho</groupId>
-        <artifactId>tycho-packaging-plugin</artifactId>
-        <version>${tycho.version}</version>
-        <configuration>
-          <archiveSite>true</archiveSite>
+          <destination>${repo.dest}</destination>
         </configuration>
       </plugin>
     </plugins>
