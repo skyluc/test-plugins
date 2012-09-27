@@ -224,10 +224,7 @@ All rights reserved.
    </url>
 
    <requires>
-      <import plugin="org.eclipse.core.runtime"/>
-      <import plugin="org.eclipse.ui"/>
-      <import plugin="org.scala-ide.scala.library"/>
-      <import plugin="org.skyluc.master"/>
+      <import feature="org.skyluc.master.feature"/>
    </requires>
 
    <plugin
